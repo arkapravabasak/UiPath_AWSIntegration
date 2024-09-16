@@ -105,7 +105,7 @@
     </sap:WorkflowViewStateService.ViewState>
     <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="450,173" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Start Process&quot;]" />
     <ui:GetRobotCredential AssetName="AWSLambda_AccessSecret" CacheStrategy="None" DisplayName="Get Credential" FolderPath="MyFolder" sap:VirtualizedContainerService.HintSize="450,175" sap2010:WorkflowViewState.IdRef="GetRobotCredential_1" Password="[awsAccessSecret]" TimeoutMS="{x:Null}" Username="[awsAccessId]" />
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="450,173" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[&quot;Access Credentials retrieved&quot;]" />
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="450,173" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[&quot;Access Credentials retrieved from Orch.&quot;]" />
     <uaa:AWSScope AccessKeyId="[awsAccessId]" DisplayName="Amazon Web Services Scope" sap:VirtualizedContainerService.HintSize="450,551" IAMRole="{x:Null}" sap2010:WorkflowViewState.IdRef="AWSScope_1" Region="ap-south-1" SecretAccessKey="[awsAccessSecret]" TemporarySessionToken="{x:Null}">
       <uaa:AWSScope.Body>
         <ActivityAction x:TypeArguments="uac:AWSCmd">
